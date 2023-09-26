@@ -14,7 +14,7 @@ const repeatSelect = document.getElementById('repeatSelect'); // 繰り返し回
 
 // 音の再生
 function playSound() {
-    const audio = new Audio('timer_sound.mp3'); // タイマー音のファイルパスを指定
+    const audio = new Audio('sound/timer_sound.mp3'); // タイマー音のファイルパスを指定
     audio.play();
 }
 
