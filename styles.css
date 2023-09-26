@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* 横方向中央配置 */
+  align-items: center; /* 縦方向中央配置 */
+  min-height: 100vh; /* ウィンドウの高さいっぱいに表示 */
+  background-color: #bde5e0;
+}
+
+.container {
+  background-color: #fff;
+  padding: 0 8px; /* 左右に8pxのpaddingを追加 */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.timer {
+  margin-top: 20px;
+}
+
+.countdown {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 0 10px;
+}
+
+/* タイマーコンテナ */
+.timer {
+  text-align: center;
+  padding: 20px;
+}
+
+/* カウントダウンのテキストスタイル */
+.countdown-text {
+  font-size: 48px; /* カウントダウンのフォントサイズ */
+  margin-bottom: 10px; /* カウントダウンの下部マージン */
+}
+
+/* 残り回数のテキストスタイル */
+.repeat-count-text {
+  font-size: 18px; /* 残り回数のフォントサイズ */
+  color: #666; /* テキストのカラー */
+}
+
+/* オプションとボタンのスタイル（以前のスタイルと変更はありません） */
+.options {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.buttons button {
+  background-color: #91c9c1; /* 似た系統の色に設定 */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px; /* ボタンの角を丸くする */
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.buttons button:hover {
+  background-color: #6aafaa; /* ホバー時の色 */
+}
+
+/* オプションとボタンのスタイル */
+.options {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.time-select {
+  font-size: 18px; /* セレクトボックスのフォントサイズ */
+}

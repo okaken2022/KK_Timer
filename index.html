@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KKタイマー</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>KKタイマー</h1>
+        <div class="timer">
+          <div class="countdown">
+              <span id="countdownDisplay" class="countdown-text">00:00</span>
+          </div>
+          <div class="repeat-count">
+              <span id="repeatCount" class="repeat-count-text">残り回数: 0</span>
+          </div>
+          <div class="options">
+            <select id="minutesSelect" class="time-select">
+              <option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <!-- 分の選択肢を追加 -->
+            </select>
+            <label for="minutesSelect">分</label>
+            <select id="secondsSelect" class="time-select">
+              <option value="0">0</option>
+              <option value="5">5</option>
+              <option value="10">10</option>
+              <option value="15">15</option>
+              <option value="20">20</option>
+              <option value="25">25</option>
+              <option value="30">30</option>
+              <option value="35">35</option>
+              <option value="40">40</option>
+              <option value="45">45</option>
+              <option value="50">50</option>
+              <option value="55">55</option>
+              <option value="60">60</option>
+              <!-- 秒の選択肢を追加 -->
+            </select>
+            <label for="secondsSelect">秒</label>
+          </div>
+          <div class="repeat-count">
+            <label for="repeatSelect">繰り返し回数:</label>
+            <select id="repeatSelect" class="time-select">
+                <!-- 繰り返し回数を指定するセレクトボックスを追加 -->
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+            </div>
+            <div class="buttons">
+                <button id="startButton">スタート</button>
+                <button id="stopButton">ストップ</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
